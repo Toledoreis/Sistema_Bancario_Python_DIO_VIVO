@@ -340,19 +340,23 @@ def criar_conta(numero_conta, clientes, contas):
         print("\n@@@ Cliente não encontrado, fluxo de criação de conta encerrado! @@@")
         return
 
-    print("Digite a opção do Tipo de conta para criar: Digite 1 para Conta corrente \nDigite 2 Para Conta Poupança \n")
+    print("Selecione a opção desejada para criar sua conta:\nDigite 1 para Conta Corrente; \nDigite 2 Para Conta Poupança.")
     opcao = input() # Armazene a opção na variável 'opcao'
 
     if opcao == "1":
+
         conta_corrente = ContaCorrente.nova_conta(cliente=cliente, numero=numero_conta)
         contas.append(conta_corrente)
         cliente.contas.append(conta_corrente)
         print("\n=== Conta Corrente criada com sucesso! ===")
+
     elif opcao == "2":
+
         conta_poupanca = ContaPoupanca.nova_conta(cliente=cliente, numero=numero_conta)
         contas.append(conta_poupanca)
         cliente.contas.append(conta_poupanca)
         print("\n=== Conta Poupança criada com sucesso! ===")
+
     else:
         print("\n@@@ Opção inválida! @@@")
         return
