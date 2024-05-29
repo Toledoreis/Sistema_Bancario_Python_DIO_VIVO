@@ -1,0 +1,9 @@
+[2024-05-29 14:46:08] Função 'criar_cliente' executada com argumentos ([<PessoaFisica: ('h', '1')>],) e {}. Retornou None
+[2024-05-29 14:54:26] Função 'criar_conta' executada com argumentos (1, [<PessoaFisica: ('h', '1')>], [<ContaCorrente: ('0001', '1', 'h')>]) e {}. Retornou None
+[2024-05-29 14:54:34] Função 'criar_conta' executada com argumentos (2, [<PessoaFisica: ('h', '1')>], [<ContaCorrente: ('0001', '1', 'h')>, <__main__.ContaPoupanca object at 0x000002AE1757B2C0>]) e {}. Retornou None
+[2024-05-29 14:54:44] Função 'depositar' executada com argumentos ([<PessoaFisica: ('h', '1')>],) e {}. Retornou None
+[2024-05-29 14:54:52] Função 'depositar' executada com argumentos ([<PessoaFisica: ('h', '1')>],) e {}. Retornou None
+[2024-05-29 14:55:02] Função 'exibir_extrato' executada com argumentos ([<PessoaFisica: ('h', '1')>],) e {}. Retornou None
+[2024-05-29 14:55:07] Função 'exibir_extrato' executada com argumentos ([<PessoaFisica: ('h', '1')>],) e {}. Retornou None
+[2024-05-29 14:55:12] Função 'listar_contas' executada com argumentos ([<ContaCorrente: ('0001', '1', 'h')>, <__main__.ContaPoupanca object at 0x000002AE1757B2C0>],) e {}. Retornou None
+[2024-05-29 14:55:31] Função 'sacar' executada com argumentos ([<PessoaFisica: ('h', '1')>],) e {}. Retornou None
